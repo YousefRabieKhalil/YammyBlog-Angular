@@ -1,0 +1,37 @@
+<section class="categories_area clearfix" id="about">
+  <div class="container">
+    <div class="row">
+      <category-preview class="col-12 col-md-6 col-lg-4" Title="Cooking" ImageLink="./assets/img/catagory-img/1.jpg"></category-preview>
+      <category-preview class="col-12 col-md-6 col-lg-4" Title="Life Style" ImageLink="./assets/img/catagory-img/3.jpg"></category-preview>
+      <category-preview class="col-12 col-md-6 col-lg-4" Title="Food" ImageLink="./assets/img/catagory-img/2.jpg"></category-preview>
+    </div>
+  </div>
+</section>
+
+
+<!-- ****** Blog Area Start ****** -->
+<section class="blog_area section_padding_0_80">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="row">
+
+          <!-- Single Post -->
+          <single-post-preview [featured]="true" postDate="May 19, 2017" ByWho="Yousef rabie" Comments="10" Likes="12" ImageLink="./assets/img/blog-img/1.jpg"
+            Title="Where To Get The Best Sunday Roast In The Cotswolds">
+          </single-post-preview>
+
+          <!-- ******* List Blog Area Start ******* -->
+          <single-post-preview [featured]="false" postDate="May 19, 2017" ByWho="Yousef rabie" Comments="10" Likes="12" ImageLink="./assets/img/blog-img/2.jpg"
+            Title="Where To Get The Best Sunday Roast In The Cotswolds">
+          </single-post-preview>
+          <single-post-preview [featured]="false" postDate="May 19, 2017" ByWho="Yousef rabie" Comments="10" Likes="12" ImageLink="./assets/img/blog-img/3.jpg"
+            Title="Where To Get The Best Sunday Roast In The Cotswolds">
+          </single-post-preview>
+
+        </div>
+      </div>
+      <blog-sidebar class="col-12 col-sm-8 col-md-6 col-lg-4"></blog-sidebar>
+    </div>
+  </div>
+</section>
